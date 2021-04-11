@@ -1,0 +1,28 @@
+.SignupForm {
+  width: 85%;
+  margin: auto;
+  padding-top: 50%;
+  .Title {
+    h1 {
+      font-family: Proxima Nova Bold;
+      font-size: 45px;
+      text-align: left;
+      font-weight: bold;
+      background: -webkit-linear-gradient(
+        68.94deg,
+        #ff5200 17.46%,
+        rgba(255, 82, 0, 0) 212.84%
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+}
+
+.Form_Section {
+  form {
+    .CustomButton {
+      margin-top: 10%;
+    }
+  }
+}

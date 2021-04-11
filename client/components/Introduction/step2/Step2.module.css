@@ -1,0 +1,112 @@
+.Title {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.Title h1 {
+  font-family: Proxima Nova Bold;
+  font-size: 45px;
+  text-align: left;
+  font-weight: bold;
+  background: -webkit-linear-gradient(68.94deg, #ff5200 17.46%, rgba(255, 82, 0, 0) 212.84%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.Form_Section form .CustomButton {
+  margin-top: 10%;
+}
+
+.QuestionContainer {
+  margin-top: 50px;
+  width: 80%;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.QuestionContainer .Question_Label label {
+  font-family: Proxima Nova Bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000;
+}
+
+.QuestionContainer .Box {
+  margin-top: 5% !important;
+  padding: unset !important;
+  width: 50% !important;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -ms-flex-pack: distribute !important;
+      justify-content: space-around !important;
+  border-radius: 10px !important;
+  background: #f5f5f5 !important;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.QuestionContainer .Box h1 {
+  width: 100%;
+  padding: 10px;
+  font-size: 19px;
+  font-family: Proxima Nova;
+  text-align: center;
+  background: transparent;
+}
+
+.QuestionContainer .Box .Active {
+  background: linear-gradient(76.37deg, #ff5200 16.63%, rgba(255, 82, 0, 0) 207.69%);
+  border-radius: 10px;
+  color: #fff;
+}
+
+.calory_Input {
+  margin-top: 20%;
+}
+
+.calory_Input .Container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  margin-top: 3%;
+}
+
+.calory_Input .Input {
+  width: 80%;
+  -webkit-box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.07);
+          box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.07);
+  border-radius: 10px 0 0 10px;
+  padding: 3% 5%;
+  /* Chrome, Safari, Edge, Opera */
+  /* Firefox */
+}
+
+.calory_Input .Input input::-webkit-outer-spin-button,
+.calory_Input .Input input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.calory_Input .Input input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.calory_Input .Input::before,
+.calory_Input .Input::after,
+.calory_Input .Input:hover::after {
+  border: unset !important;
+}
+
+.calory_Input button {
+  width: 50%;
+  background: #f5f5f5 !important;
+  -webkit-box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.3) !important;
+          box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.3) !important;
+  border-radius: 0px 10px 10px 0px !important;
+  font-size: 70%;
+  color: #000000;
+  opacity: 0.5;
+}
+/*# sourceMappingURL=Step2.module.css.map */

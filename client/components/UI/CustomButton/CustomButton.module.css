@@ -1,0 +1,22 @@
+.UIButton {
+  letter-spacing: 1px !important;
+  font-family: Proxima Nova !important;
+  font-style: normal !important;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+  width: 100%;
+  font-style: normal;
+  background: linear-gradient(76.37deg, #ff5200 16.63%, rgba(255, 82, 0, 0) 207.69%) !important;
+  border-radius: 0;
+  border: 0;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  text-transform: none !important;
+  color: white !important;
+}
+/*# sourceMappingURL=CustomButton.module.css.map */

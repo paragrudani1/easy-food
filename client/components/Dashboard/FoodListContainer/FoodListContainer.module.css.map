@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "FoodListContainer.module.scss"
+    ],
+    "names": [],
+    "file": "FoodListContainer.module.css"
+}

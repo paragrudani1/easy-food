@@ -1,0 +1,36 @@
+.Signup {
+  font-family: Proxima Nova;
+
+  .Logo_Container {
+    display: flex;
+    justify-content: center;
+    padding-top: 40%;
+  }
+
+  .GoogleSignIn {
+    width: 80% !important;
+    margin: 50% auto 5% auto;
+    background: #4185f4 !important;
+  }
+
+  .CustomButton {
+    width: 80% !important;
+    margin: auto;
+  }
+
+  .LoginLink {
+    text-align: center;
+    margin-top: 2%;
+
+    a {
+      text-decoration: none;
+      color: #000000;
+      opacity: 0.4;
+      font-size: 15px;
+
+      span {
+        text-decoration: underline;
+      }
+    }
+  }
+}

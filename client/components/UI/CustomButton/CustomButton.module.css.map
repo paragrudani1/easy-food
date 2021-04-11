@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,SAAS,CAAC;EACR,cAAc,EAAE,cAAc;EAC9B,WAAW,EAAE,uBAAuB;EACpC,UAAU,EAAE,iBAAiB;EAC7B,OAAO,EAAE,eAAe;EACxB,eAAe,EAAE,iBAAiB;EAElC,KAAK,EAAE,IAAI;EACX,UAAU,EAAE,MAAM;EAClB,UAAU,EAAE,sEAIX,CAAC,UAAU;EACZ,aAAa,EAAE,CAAC;EAChB,MAAM,EAAE,CAAC;EACT,MAAM,EAAE,WAAW;EACnB,cAAc,EAAE,eAAe;EAC/B,KAAK,EAAE,gBAAgB;CACxB",
+    "sources": [
+        "CustomButton.module.scss"
+    ],
+    "names": [],
+    "file": "CustomButton.module.css"
+}

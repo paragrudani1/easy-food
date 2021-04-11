@@ -1,0 +1,25 @@
+.Status_Container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Status_Container p {
+  font-family: Proxima Nova;
+  color: #000000;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  opacity: 0.3;
+}
+
+.Label_Container {
+  max-width: 70%;
+  width: 100%;
+  margin-bottom: 2%;
+}
+/*# sourceMappingURL=Slider.module.css.map */

@@ -1,0 +1,18 @@
+.Title {
+  align-self: flex-start;
+  margin-bottom: 10%;
+
+  h1 {
+    font-family: Proxima Nova Bold;
+    font-size: 45px;
+    text-align: left;
+    font-weight: bold;
+    background: -webkit-linear-gradient(
+      68.94deg,
+      #ff5200 17.46%,
+      rgba(255, 82, 0, 0) 212.84%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}

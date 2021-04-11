@@ -1,0 +1,36 @@
+.Introduction {
+  padding-top: 40%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 85%;
+  height: 100vh;
+}
+
+.Introduction .Title {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.Introduction .Title h1 {
+  font-family: Proxima Nova Bold;
+  font-size: 45px;
+  text-align: left;
+  font-weight: bold;
+  background: -webkit-linear-gradient(68.94deg, #ff5200 17.46%, rgba(255, 82, 0, 0) 212.84%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.Form_Section form .CustomButton {
+  margin-top: 10%;
+}
+/*# sourceMappingURL=Introduction.module.css.map */

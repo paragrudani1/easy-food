@@ -1,0 +1,41 @@
+.Signup {
+  font-family: Proxima Nova;
+}
+
+.Signup .Logo_Container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 40%;
+}
+
+.Signup .GoogleSignIn {
+  width: 80% !important;
+  margin: 50% auto 5% auto;
+  background: #4185f4 !important;
+}
+
+.Signup .CustomButton {
+  width: 80% !important;
+  margin: auto;
+}
+
+.Signup .LoginLink {
+  text-align: center;
+  margin-top: 2%;
+}
+
+.Signup .LoginLink a {
+  text-decoration: none;
+  color: #000000;
+  opacity: 0.4;
+  font-size: 15px;
+}
+
+.Signup .LoginLink a span {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=Signup.module.css.map */
