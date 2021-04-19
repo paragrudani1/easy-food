@@ -1,0 +1,22 @@
+.Image_Container {
+  position: relative;
+}
+
+.Image_Container .CloseButton {
+  position: absolute;
+  z-index: 11;
+  background: white;
+  padding: 6px;
+  top: 3%;
+  left: 3%;
+}
+
+.Image_Container .CloseButton:hover {
+  opacity: 0.8;
+  background: white;
+}
+
+.Title {
+  font-family: Proxima Nova Bold;
+}
+/*# sourceMappingURL=product.module.css.map */

@@ -2,10 +2,11 @@ import React from "react";
 import classes from "./Dashboard.module.css";
 import styled from "styled-components";
 import FoodListContainer from "../../components/Dashboard/FoodListContainer/FoodListContainer";
+import BottomNavigation from "../../components/Dashboard/BottomNavigation/BottomNavigation";
 
 const Title = styled.div`
   width: 80%;
-  margin: 5% auto 0;
+  margin: 5% auto 5%;
 
   h1 {
     font-family: Proxima Nova Bold;
@@ -31,6 +32,7 @@ const Dashboard = () => {
       </Title>
 
       <FoodListContainer />
+      <BottomNavigation />
     </section>
   );
 };

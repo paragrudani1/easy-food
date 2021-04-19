@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AAAA,AAAA,IAAI,CAAC;EACH,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,OAAO;CAC/B;;AAED,AAAA,KAAK,CAAC;EACJ,MAAM,EAAE,IAAI;CACb",
     "sources": [
         "FoodListContainer.module.scss"
     ],

@@ -1,0 +1,22 @@
+.Image_Container {
+  position: relative;
+
+  .CloseButton {
+    position: absolute;
+    z-index: 11;
+    background: hsl(0, 0%, 100%);
+    padding: 6px;
+
+    top: 3%;
+    left: 3%;
+
+    &:hover {
+      opacity: 0.8;
+      background: hsl(0, 0%, 100%);
+    }
+  }
+}
+
+.Title {
+  font-family: Proxima Nova Bold;
+}

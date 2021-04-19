@@ -1,0 +1,134 @@
+.ProductDetail {
+  width: fit-content;
+  height: fit-content;
+
+  background: #ffffff;
+
+  box-shadow: 1px 3px 15px rgba(0, 0, 0, 0.17);
+
+  border-radius: 10px;
+
+  font-family: Proxima Nova;
+
+  .Product_Image {
+    position: relative;
+    cursor: pointer;
+
+    .Image {
+      width: 100%;
+    }
+
+    .Heart_Icon {
+      position: absolute;
+
+      bottom: 8%;
+      left: 3%;
+
+      background-color: #ffffff;
+      border-radius: 50%;
+
+      width: 25px;
+      height: 25px;
+
+      display: flex;
+      align-items: center;
+
+      cursor: pointer;
+
+      img {
+        margin: auto;
+      }
+    }
+  }
+
+  .Detail {
+    .Name {
+      font-size: 16px;
+
+      text-transform: lowercase;
+      color: black;
+
+      cursor: pointer;
+    }
+
+    .Start_Rating {
+      .stars_outer {
+        display: inline-block;
+        position: relative;
+        font-family: FontAwesome;
+      }
+
+      .stars_outer::before {
+        content: "\f006 \f006 \f006 \f006 \f006";
+        background: linear-gradient(
+          68.94deg,
+          #ff5200 17.46%,
+          rgba(255, 82, 0, 0) 212.84%
+        );
+
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+      .stars_inner {
+        position: absolute;
+        top: 0;
+        left: 0;
+        white-space: nowrap;
+        overflow: hidden;
+        width: 0;
+      }
+
+      .stars_inner::before {
+        content: "\f005 \f005 \f005 \f005 \f005";
+        color: #f8ce0b;
+      }
+
+      .stars_inner {
+        width: 0;
+      }
+    }
+  }
+
+  .Time {
+    background: #f6f6f6;
+    border-radius: 3px;
+
+    width: fit-content;
+
+    padding: 3% 5%;
+
+    margin-top: 10%;
+
+    p {
+      font-weight: bold;
+      color: #000000;
+
+      opacity: 0.5;
+
+      font-size: 0.8rem;
+    }
+  }
+
+  .Product_Price {
+    h3 {
+      font-size: 0.8rem;
+    }
+
+    .Price {
+      font-family: Proxima Nova Bold;
+
+      background: linear-gradient(
+        68.94deg,
+        #ff5200 17.46%,
+        rgba(255, 82, 0, 0) 212.84%
+      );
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+
+      font-size: 18px;
+    }
+  }
+}

@@ -22,6 +22,19 @@ body {
   position: relative;
 }
 
+.App::-webkit-scrollbar {
+  width: 4px;
+}
+
+.App::-webkit-scrollbar-thumb {
+  background: rgb(158, 158, 158);
+  border-radius: 3px;
+}
+
+.App::-webkit-scrollbar-track {
+  background: #f1f1f1 !important;
+}
+
 section {
   background-color: white;
   width: 100%;

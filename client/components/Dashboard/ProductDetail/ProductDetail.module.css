@@ -1,1 +1,113 @@
-/* No CSS *//*# sourceMappingURL=ProductDetail.module.css.map */
+.ProductDetail {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background: #ffffff;
+  -webkit-box-shadow: 1px 3px 15px rgba(0, 0, 0, 0.17);
+          box-shadow: 1px 3px 15px rgba(0, 0, 0, 0.17);
+  border-radius: 10px;
+  font-family: Proxima Nova;
+}
+
+.ProductDetail .Product_Image {
+  position: relative;
+  cursor: pointer;
+}
+
+.ProductDetail .Product_Image .Image {
+  width: 100%;
+}
+
+.ProductDetail .Product_Image .Heart_Icon {
+  position: absolute;
+  bottom: 8%;
+  left: 3%;
+  background-color: #ffffff;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.ProductDetail .Product_Image .Heart_Icon img {
+  margin: auto;
+}
+
+.ProductDetail .Detail .Name {
+  font-size: 16px;
+  text-transform: lowercase;
+  color: black;
+  cursor: pointer;
+}
+
+.ProductDetail .Detail .Start_Rating .stars_outer {
+  display: inline-block;
+  position: relative;
+  font-family: FontAwesome;
+}
+
+.ProductDetail .Detail .Start_Rating .stars_outer::before {
+  content: "\f006 \f006 \f006 \f006 \f006";
+  background: linear-gradient(68.94deg, #ff5200 17.46%, rgba(255, 82, 0, 0) 212.84%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.ProductDetail .Detail .Start_Rating .stars_inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+}
+
+.ProductDetail .Detail .Start_Rating .stars_inner::before {
+  content: "\f005 \f005 \f005 \f005 \f005";
+  color: #f8ce0b;
+}
+
+.ProductDetail .Detail .Start_Rating .stars_inner {
+  width: 0;
+}
+
+.ProductDetail .Time {
+  background: #f6f6f6;
+  border-radius: 3px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 3% 5%;
+  margin-top: 10%;
+}
+
+.ProductDetail .Time p {
+  font-weight: bold;
+  color: #000000;
+  opacity: 0.5;
+  font-size: 0.8rem;
+}
+
+.ProductDetail .Product_Price h3 {
+  font-size: 0.8rem;
+}
+
+.ProductDetail .Product_Price .Price {
+  font-family: Proxima Nova Bold;
+  background: linear-gradient(68.94deg, #ff5200 17.46%, rgba(255, 82, 0, 0) 212.84%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 18px;
+}
+/*# sourceMappingURL=ProductDetail.module.css.map */
